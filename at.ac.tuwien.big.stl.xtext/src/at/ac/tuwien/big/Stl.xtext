@@ -22,6 +22,49 @@ ItemType returns ItemType:
 	'item' name=ID '=' '"'EString'"'
 ;
 
+Component returns Component:
+	Store|ItemGenerator|Conveyor|TurnTable|Machine|Buffer
+;
+
+ItemGenerator returns ItemGenerator:
+	
+;
+
+Conveyor returns Conveyor:
+	
+;
+
+TurnTable returns TurnTable:
+	
+;
+
+Machine returns Machine:
+	
+;
+
+Buffer returns Buffer:
+	
+;
+
+Store returns Store:
+	ProductStore|WasteStore
+;
+
+ProductStore returns ProductStore:
+	
+;
+
+WasteStore returns WasteStore:
+	
+;
+
+Connector returns Connector:
+	
+;
+
+Slot returns Slot:
+	
+;
 
 QualifiedName returns ecore::EString:
 	ID (=> '.' ID)*;
