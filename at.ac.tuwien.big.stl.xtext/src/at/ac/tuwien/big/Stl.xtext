@@ -27,8 +27,11 @@ Component returns Component:
 ;
 
 ItemGenerator returns ItemGenerator:
-	
+	'generator' name=ID 'generates' generatedType = [ItemType|QualifiedName]  '(cost=' INT')' '{'
+	 'output' outputSlots+= Slot
+	'}'
 ;
+
 
 Conveyor returns Conveyor:
 	
@@ -63,7 +66,7 @@ Connector returns Connector:
 ;
 
 Slot returns Slot:
-	
+	name=ID ':' requiredType= [ItemType|QualifiedName]
 ;
 
 QualifiedName returns ecore::EString:
