@@ -19,7 +19,7 @@ Area returns Area:
 ;
 
 ItemType returns ItemType:
-	'item' name=ID '=' '"'EString'"'
+	'item' name=ID '=' EString
 ;
 
 Component returns Component:
@@ -27,26 +27,43 @@ Component returns Component:
 ;
 
 ItemGenerator returns ItemGenerator:
-	'generator' name=ID 'generates' generatedType = [ItemType|QualifiedName]  '(cost=' INT')' '{'
-	 'output' outputSlots+= Slot
+	'generator' name=ID 'generates' generatedType = [ItemType|QualifiedName]  '(cost=' cost=INT')' '{'
+	'output' outputSlots+= Slot
+	(services+=Service)*
 	'}'
 ;
 
 
 Conveyor returns Conveyor:
-	
+	'conveyor' name=ID '(cost=' cost=INT')' '{'
+	'input' inputSlots+= Slot
+	'output' outputSlots+= Slot
+	(services+=Service)*
+	'}'
 ;
 
 TurnTable returns TurnTable:
-	
+	'turntable' name=ID '(cost=' cost=INT')' '{'
+	('input' inputSlots+= Slot)+
+	('output' outputSlots+= Slot)+
+	(services+=Service)*
+	'}'
 ;
 
 Machine returns Machine:
-	
+	'machine' name=ID '(cost=' cost=INT')' '{'
+	('input' inputSlots+= Slot)+
+	('output' outputSlots+= Slot)+
+	(services+=Service)*
+	'}'
 ;
 
 Buffer returns Buffer:
-	
+	'buffer' name=ID '(cost=' cost=INT')' '{'
+	'input' inputSlots+= Slot
+	'output' outputSlots+= Slot
+	(services+=Service)*
+	'}'
 ;
 
 Store returns Store:
@@ -54,19 +71,35 @@ Store returns Store:
 ;
 
 ProductStore returns ProductStore:
-	
+	'productStore' name=ID '(cost=' cost=INT',capacity='capacity=INT')' '{'
+	'input' inputSlots+= Slot
+	(services+=Service)*
+	'}'
 ;
 
 WasteStore returns WasteStore:
-	
+	'wasteStore' name=ID '(cost='cost=INT',capacity='capacity=INT')' '{'
+	'input' inputSlots+= Slot
+	(services+=Service)*
+	'}'
 ;
 
 Connector returns Connector:
-	
+	entry=[Slot|QualifiedName]'>'exit=[Slot|QualifiedName]
 ;
 
 Slot returns Slot:
 	name=ID ':' requiredType= [ItemType|QualifiedName]
+;
+
+Service returns Service:
+	'service' name=ID '(cost='cost=INT',reliability='reliability=EDouble ',processingTime='processingTime= INT')' 
+	('{' 
+		('input' parameters+= Parameter)*
+	'}')?
+;
+Parameter returns Parameter:
+	name=ID
 ;
 
 QualifiedName returns ecore::EString:

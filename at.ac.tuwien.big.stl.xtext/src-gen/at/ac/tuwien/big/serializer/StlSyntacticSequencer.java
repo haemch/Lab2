@@ -11,6 +11,9 @@ import org.eclipse.xtext.IGrammarAccess;
 import org.eclipse.xtext.RuleCall;
 import org.eclipse.xtext.nodemodel.INode;
 import org.eclipse.xtext.serializer.analysis.GrammarAlias.AbstractElementAlias;
+import org.eclipse.xtext.serializer.analysis.GrammarAlias.GroupAlias;
+import org.eclipse.xtext.serializer.analysis.GrammarAlias.TokenAlias;
+import org.eclipse.xtext.serializer.analysis.ISyntacticSequencerPDAProvider.ISynNavigable;
 import org.eclipse.xtext.serializer.analysis.ISyntacticSequencerPDAProvider.ISynTransition;
 import org.eclipse.xtext.serializer.sequencer.AbstractSyntacticSequencer;
 
@@ -18,17 +21,30 @@ import org.eclipse.xtext.serializer.sequencer.AbstractSyntacticSequencer;
 public class StlSyntacticSequencer extends AbstractSyntacticSequencer {
 
 	protected StlGrammarAccess grammarAccess;
+	protected AbstractElementAlias match_Service___LeftCurlyBracketKeyword_9_0_RightCurlyBracketKeyword_9_2__q;
 	
 	@Inject
 	protected void init(IGrammarAccess access) {
 		grammarAccess = (StlGrammarAccess) access;
+		match_Service___LeftCurlyBracketKeyword_9_0_RightCurlyBracketKeyword_9_2__q = new GroupAlias(false, true, new TokenAlias(false, false, grammarAccess.getServiceAccess().getLeftCurlyBracketKeyword_9_0()), new TokenAlias(false, false, grammarAccess.getServiceAccess().getRightCurlyBracketKeyword_9_2()));
 	}
 	
 	@Override
 	protected String getUnassignedRuleCallToken(EObject semanticObject, RuleCall ruleCall, INode node) {
+		if (ruleCall.getRule() == grammarAccess.getEStringRule())
+			return getEStringToken(semanticObject, ruleCall, node);
 		return "";
 	}
 	
+	/**
+	 * EString returns ecore::EString:
+	 * 	STRING | ID;
+	 */
+	protected String getEStringToken(EObject semanticObject, RuleCall ruleCall, INode node) {
+		if (node != null)
+			return getTokenText(node);
+		return "\"\"";
+	}
 	
 	@Override
 	protected void emitUnassignedTokens(EObject semanticObject, ISynTransition transition, INode fromNode, INode toNode) {
@@ -36,8 +52,21 @@ public class StlSyntacticSequencer extends AbstractSyntacticSequencer {
 		List<INode> transitionNodes = collectNodes(fromNode, toNode);
 		for (AbstractElementAlias syntax : transition.getAmbiguousSyntaxes()) {
 			List<INode> syntaxNodes = getNodesFor(transitionNodes, syntax);
-			acceptNodes(getLastNavigableState(), syntaxNodes);
+			if (match_Service___LeftCurlyBracketKeyword_9_0_RightCurlyBracketKeyword_9_2__q.equals(syntax))
+				emit_Service___LeftCurlyBracketKeyword_9_0_RightCurlyBracketKeyword_9_2__q(semanticObject, getLastNavigableState(), syntaxNodes);
+			else acceptNodes(getLastNavigableState(), syntaxNodes);
 		}
 	}
 
+	/**
+	 * Ambiguous syntax:
+	 *     ('{' '}')?
+	 *
+	 * This ambiguous syntax occurs at:
+	 *     processingTime=INT ')' (ambiguity) (rule end)
+	 */
+	protected void emit_Service___LeftCurlyBracketKeyword_9_0_RightCurlyBracketKeyword_9_2__q(EObject semanticObject, ISynNavigable transition, List<INode> nodes) {
+		acceptNodes(transition, nodes);
+	}
+	
 }

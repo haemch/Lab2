@@ -4,7 +4,19 @@
 package at.ac.tuwien.big.serializer;
 
 import at.ac.tuwien.big.services.StlGrammarAccess;
+import at.ac.tuwien.big.stl.Area;
+import at.ac.tuwien.big.stl.Buffer;
+import at.ac.tuwien.big.stl.Connector;
+import at.ac.tuwien.big.stl.Conveyor;
+import at.ac.tuwien.big.stl.ItemGenerator;
+import at.ac.tuwien.big.stl.ItemType;
+import at.ac.tuwien.big.stl.Machine;
+import at.ac.tuwien.big.stl.ProductStore;
 import at.ac.tuwien.big.stl.STLPackage;
+import at.ac.tuwien.big.stl.Service;
+import at.ac.tuwien.big.stl.Slot;
+import at.ac.tuwien.big.stl.TurnTable;
+import at.ac.tuwien.big.stl.WasteStore;
 import com.google.inject.Inject;
 import java.util.Set;
 import org.eclipse.emf.ecore.EObject;
@@ -31,8 +43,47 @@ public class StlSemanticSequencer extends AbstractDelegatingSemanticSequencer {
 		Set<Parameter> parameters = context.getEnabledBooleanParameters();
 		if (epackage == STLPackage.eINSTANCE)
 			switch (semanticObject.eClass().getClassifierID()) {
+			case STLPackage.AREA:
+				sequence_Area(context, (Area) semanticObject); 
+				return; 
+			case STLPackage.BUFFER:
+				sequence_Buffer(context, (Buffer) semanticObject); 
+				return; 
+			case STLPackage.CONNECTOR:
+				sequence_Connector(context, (Connector) semanticObject); 
+				return; 
+			case STLPackage.CONVEYOR:
+				sequence_Conveyor(context, (Conveyor) semanticObject); 
+				return; 
+			case STLPackage.ITEM_GENERATOR:
+				sequence_ItemGenerator(context, (ItemGenerator) semanticObject); 
+				return; 
+			case STLPackage.ITEM_TYPE:
+				sequence_ItemType(context, (ItemType) semanticObject); 
+				return; 
+			case STLPackage.MACHINE:
+				sequence_Machine(context, (Machine) semanticObject); 
+				return; 
+			case STLPackage.PARAMETER:
+				sequence_Parameter(context, (at.ac.tuwien.big.stl.Parameter) semanticObject); 
+				return; 
+			case STLPackage.PRODUCT_STORE:
+				sequence_ProductStore(context, (ProductStore) semanticObject); 
+				return; 
+			case STLPackage.SERVICE:
+				sequence_Service(context, (Service) semanticObject); 
+				return; 
+			case STLPackage.SLOT:
+				sequence_Slot(context, (Slot) semanticObject); 
+				return; 
 			case STLPackage.SYSTEM:
 				sequence_System(context, (at.ac.tuwien.big.stl.System) semanticObject); 
+				return; 
+			case STLPackage.TURN_TABLE:
+				sequence_TurnTable(context, (TurnTable) semanticObject); 
+				return; 
+			case STLPackage.WASTE_STORE:
+				sequence_WasteStore(context, (WasteStore) semanticObject); 
 				return; 
 			}
 		if (errorAcceptor != null)
@@ -41,19 +92,208 @@ public class StlSemanticSequencer extends AbstractDelegatingSemanticSequencer {
 	
 	/**
 	 * Contexts:
-	 *     System returns System
+	 *     Area returns Area
 	 *
 	 * Constraint:
-	 *     name=EString
+	 *     (name=ID components+=Component* connectors+=Connector*)
 	 */
-	protected void sequence_System(ISerializationContext context, at.ac.tuwien.big.stl.System semanticObject) {
+	protected void sequence_Area(ISerializationContext context, Area semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Component returns Buffer
+	 *     Buffer returns Buffer
+	 *
+	 * Constraint:
+	 *     (name=ID cost=INT inputSlots+=Slot outputSlots+=Slot services+=Service*)
+	 */
+	protected void sequence_Buffer(ISerializationContext context, Buffer semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Connector returns Connector
+	 *
+	 * Constraint:
+	 *     (entry=[Slot|QualifiedName] exit=[Slot|QualifiedName])
+	 */
+	protected void sequence_Connector(ISerializationContext context, Connector semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, STLPackage.Literals.CONNECTOR__ENTRY) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, STLPackage.Literals.CONNECTOR__ENTRY));
+			if (transientValues.isValueTransient(semanticObject, STLPackage.Literals.CONNECTOR__EXIT) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, STLPackage.Literals.CONNECTOR__EXIT));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getConnectorAccess().getEntrySlotQualifiedNameParserRuleCall_0_0_1(), semanticObject.eGet(STLPackage.Literals.CONNECTOR__ENTRY, false));
+		feeder.accept(grammarAccess.getConnectorAccess().getExitSlotQualifiedNameParserRuleCall_2_0_1(), semanticObject.eGet(STLPackage.Literals.CONNECTOR__EXIT, false));
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Component returns Conveyor
+	 *     Conveyor returns Conveyor
+	 *
+	 * Constraint:
+	 *     (name=ID cost=INT inputSlots+=Slot outputSlots+=Slot services+=Service*)
+	 */
+	protected void sequence_Conveyor(ISerializationContext context, Conveyor semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Component returns ItemGenerator
+	 *     ItemGenerator returns ItemGenerator
+	 *
+	 * Constraint:
+	 *     (name=ID generatedType=[ItemType|QualifiedName] cost=INT outputSlots+=Slot services+=Service*)
+	 */
+	protected void sequence_ItemGenerator(ISerializationContext context, ItemGenerator semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     ItemType returns ItemType
+	 *
+	 * Constraint:
+	 *     name=ID
+	 */
+	protected void sequence_ItemType(ISerializationContext context, ItemType semanticObject) {
 		if (errorAcceptor != null) {
 			if (transientValues.isValueTransient(semanticObject, STLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
 				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, STLPackage.Literals.NAMED_ELEMENT__NAME));
 		}
 		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
-		feeder.accept(grammarAccess.getSystemAccess().getNameEStringParserRuleCall_1_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getItemTypeAccess().getNameIDTerminalRuleCall_1_0(), semanticObject.getName());
 		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Component returns Machine
+	 *     Machine returns Machine
+	 *
+	 * Constraint:
+	 *     (name=ID cost=INT inputSlots+=Slot+ outputSlots+=Slot+ services+=Service*)
+	 */
+	protected void sequence_Machine(ISerializationContext context, Machine semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Parameter returns Parameter
+	 *
+	 * Constraint:
+	 *     name=ID
+	 */
+	protected void sequence_Parameter(ISerializationContext context, at.ac.tuwien.big.stl.Parameter semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, STLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, STLPackage.Literals.NAMED_ELEMENT__NAME));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getParameterAccess().getNameIDTerminalRuleCall_0(), semanticObject.getName());
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Component returns ProductStore
+	 *     Store returns ProductStore
+	 *     ProductStore returns ProductStore
+	 *
+	 * Constraint:
+	 *     (name=ID cost=INT capacity=INT inputSlots+=Slot services+=Service*)
+	 */
+	protected void sequence_ProductStore(ISerializationContext context, ProductStore semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Service returns Service
+	 *
+	 * Constraint:
+	 *     (name=ID cost=INT reliability=EDouble processingTime=INT parameters+=Parameter*)
+	 */
+	protected void sequence_Service(ISerializationContext context, Service semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Slot returns Slot
+	 *
+	 * Constraint:
+	 *     (name=ID requiredType=[ItemType|QualifiedName])
+	 */
+	protected void sequence_Slot(ISerializationContext context, Slot semanticObject) {
+		if (errorAcceptor != null) {
+			if (transientValues.isValueTransient(semanticObject, STLPackage.Literals.NAMED_ELEMENT__NAME) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, STLPackage.Literals.NAMED_ELEMENT__NAME));
+			if (transientValues.isValueTransient(semanticObject, STLPackage.Literals.SLOT__REQUIRED_TYPE) == ValueTransient.YES)
+				errorAcceptor.accept(diagnosticProvider.createFeatureValueMissing(semanticObject, STLPackage.Literals.SLOT__REQUIRED_TYPE));
+		}
+		SequenceFeeder feeder = createSequencerFeeder(context, semanticObject);
+		feeder.accept(grammarAccess.getSlotAccess().getNameIDTerminalRuleCall_0_0(), semanticObject.getName());
+		feeder.accept(grammarAccess.getSlotAccess().getRequiredTypeItemTypeQualifiedNameParserRuleCall_2_0_1(), semanticObject.eGet(STLPackage.Literals.SLOT__REQUIRED_TYPE, false));
+		feeder.finish();
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     System returns System
+	 *
+	 * Constraint:
+	 *     (name=ID itemTypes+=ItemType* areas+=Area*)
+	 */
+	protected void sequence_System(ISerializationContext context, at.ac.tuwien.big.stl.System semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Component returns TurnTable
+	 *     TurnTable returns TurnTable
+	 *
+	 * Constraint:
+	 *     (name=ID cost=INT inputSlots+=Slot+ outputSlots+=Slot+ services+=Service*)
+	 */
+	protected void sequence_TurnTable(ISerializationContext context, TurnTable semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
+	}
+	
+	
+	/**
+	 * Contexts:
+	 *     Component returns WasteStore
+	 *     Store returns WasteStore
+	 *     WasteStore returns WasteStore
+	 *
+	 * Constraint:
+	 *     (name=ID cost=INT capacity=INT inputSlots+=Slot services+=Service*)
+	 */
+	protected void sequence_WasteStore(ISerializationContext context, WasteStore semanticObject) {
+		genericSequencer.createSequence(context, semanticObject);
 	}
 	
 	
