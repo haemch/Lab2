@@ -4,6 +4,7 @@
 package at.ac.tuwien.big.scoping;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.eclipse.emf.ecore.EObject;
@@ -14,6 +15,7 @@ import org.eclipse.xtext.scoping.impl.AbstractDeclarativeScopeProvider;
 
 import at.ac.tuwien.big.stl.Area;
 import at.ac.tuwien.big.stl.Component;
+import at.ac.tuwien.big.stl.Connector;
 import at.ac.tuwien.big.stl.ItemGenerator;
 import at.ac.tuwien.big.stl.ItemType;
 import at.ac.tuwien.big.stl.STLPackage;
@@ -38,8 +40,9 @@ public class StlScopeProvider extends AbstractDeclarativeScopeProvider {
 	public IScope scope_Slot_requiredType(ItemGenerator itemg, EReference eReference) {
 		
 		if(eReference.equals(STLPackage.Literals.SLOT__REQUIRED_TYPE)){
-			System.out.println(itemg.getGeneratedType().getName());
+			//create iterable list
 			List<EObject> list = new ArrayList<EObject>();
+			//add requiredtype to list
 			list.add(itemg.getGeneratedType());
 			return Scopes.scopeFor(list);
 		}
@@ -55,6 +58,30 @@ public class StlScopeProvider extends AbstractDeclarativeScopeProvider {
 	 * define the same required type (reference Slot.requiredType) as the entry slot
 	 * of the connector.
 	 */
+	public IScope scope_Connector_exit(Connector con, EReference eReference) {
+		
+		List <Slot> inputSlots= new ArrayList<Slot>();
+		//get all Slots
+		inputSlots = getAllInputSlots(getSystem(con));
+		//get Component of connectors entry slot
+		Component component = getComponent(con.getEntry());
+		//remove all input slots of this component
+		inputSlots.removeAll(component.getInputSlots());
+		
+		//get required type of connectors entry slot
+		ItemType requiredType = con.getEntry().getRequiredType();
+		//remove all input slots whith different required type
+		Iterator<Slot> it = inputSlots.iterator();
+		Slot tmp;
+		while(it.hasNext()) {
+			tmp = it.next();
+			if(!tmp.getRequiredType().equals(requiredType)) {
+				it.remove();
+			}
+		}
+		
+		return Scopes.scopeFor(inputSlots);
+	}
 	
 	/**
 	 * GIVEN: Scoping for Connector.entry: The entry slot of a connector has to be
