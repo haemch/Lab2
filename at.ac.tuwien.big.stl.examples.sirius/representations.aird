@@ -24,143 +24,943 @@
         <children xmi:type="notation:Node" xmi:id="_KDTFcrTKEeecfM6xPduxhw" type="2002" element="_KC2ZgbTKEeecfM6xPduxhw">
           <children xmi:type="notation:Node" xmi:id="_KDTFdbTKEeecfM6xPduxhw" type="5006"/>
           <children xmi:type="notation:Node" xmi:id="_KDTFdrTKEeecfM6xPduxhw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_lUNrVs0vEeemde2z2XHW3g" type="3008" element="_lUD6MM0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUXcMM0vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUXcMc0vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcMs0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcM80vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1c0YkM1SEeellNGpiUS35g" type="3012" element="_1cSNEM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1c1msM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1c1msc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1c200M1SEeellNGpiUS35g" type="3003" element="_1cSNEc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1c200c1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c200s1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1c0Ykc1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c0Yks1SEeellNGpiUS35g" x="105" y="29" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUNrV80vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUNrWM0vEeemde2z2XHW3g" x="3" y="29" height="69"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lUXcNM0vEeemde2z2XHW3g" type="3008" element="_lUD6NM0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUXcN80vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUXcOM0vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcOc0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcOs0vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1c4C8M1SEeellNGpiUS35g" type="3012" element="_1cUCQM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1c4qAM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1c4qAc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1c54IM1SEeellNGpiUS35g" type="3003" element="_1cUCQc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1c54Ic1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c54Is1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1c4C8c1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c4C8s1SEeellNGpiUS35g" x="120" y="36" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1c4qAs1SEeellNGpiUS35g" type="3012" element="_1cUpUM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1c5REM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1c5REc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1c6fMM1SEeellNGpiUS35g" type="3003" element="_1cUpUc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1c6fMc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c6fMs1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1c4qA81SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c4qBM1SEeellNGpiUS35g" x="-2" y="31" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUXcNc0vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUXcNs0vEeemde2z2XHW3g" x="138" y="28"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lUXcO80vEeemde2z2XHW3g" type="3008" element="_lUD6Ns0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUXcPs0vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUXcP80vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcQM0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcQc0vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1c7GQM1SEeellNGpiUS35g" type="3012" element="_1cVQYM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1c7tUM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1c7tUc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1c9igM1SEeellNGpiUS35g" type="3003" element="_1cVQYc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1c9igc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c9igs1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1c7GQc1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c7GQs1SEeellNGpiUS35g" x="123" y="34" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1c7tUs1SEeellNGpiUS35g" type="3012" element="_1cV3cM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1c87cM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1c87cc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1c-JkM1SEeellNGpiUS35g" type="3003" element="_1cV3cc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1c-Jkc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c-Jks1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1c7tU81SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c7tVM1SEeellNGpiUS35g" x="-2" y="11" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUXcPM0vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUXcPc0vEeemde2z2XHW3g" x="564" y="24"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lUXcQs0vEeemde2z2XHW3g" type="3008" element="_lUD6OM0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUXcRc0vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUXcRs0vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcR80vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcSM0vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1c-Jk81SEeellNGpiUS35g" type="3012" element="_1cWegM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1c-woM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1c-woc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1c_-ws1SEeellNGpiUS35g" type="3003" element="_1cWegc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1c_-w81SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c_-xM1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1c-JlM1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c-Jlc1SEeellNGpiUS35g" x="129" y="32" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1c_XsM1SEeellNGpiUS35g" type="3012" element="_1cXsoM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1c_-wM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1c_-wc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dAl0M1SEeellNGpiUS35g" type="3003" element="_1cXsoc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dAl0c1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dAl0s1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1c_Xsc1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1c_Xss1SEeellNGpiUS35g" x="40" y="-2" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUXcQ80vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUXcRM0vEeemde2z2XHW3g" x="554" y="213"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lUXcSc0vEeemde2z2XHW3g" type="3008" element="_lUD6Rs0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUXcTM0vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUXcTc0vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcTs0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcT80vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dBM4M1SEeellNGpiUS35g" type="3012" element="_1cY6wM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dBM481SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dBM5M1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dDCEM1SEeellNGpiUS35g" type="3003" element="_1cY6wc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dDCEc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dDCEs1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dBM4c1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dBM4s1SEeellNGpiUS35g" x="92" y="37" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dBz8M1SEeellNGpiUS35g" type="3012" element="_1cY6ws1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dCbAM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dCbAc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dDpIM1SEeellNGpiUS35g" type="3003" element="_1cZh0M1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dDpIc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dDpIs1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dBz8c1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dBz8s1SEeellNGpiUS35g" x="-2" y="46" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUXcSs0vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUXcS80vEeemde2z2XHW3g" x="291" y="19"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lUXcUM0vEeemde2z2XHW3g" type="3008" element="_lUD6TM0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUXcU80vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUXcVM0vEeemde2z2XHW3g" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_EINkEM1VEeellNGpiUS35g" visible="false" type="3007" element="_EH9scM1VEeellNGpiUS35g">
+                  <children xmi:type="notation:Node" xmi:id="_EINkE81VEeellNGpiUS35g" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_EINkFM1VEeellNGpiUS35g" y="5"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_EINkEc1VEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EINkEs1VEeellNGpiUS35g" x="30" y="30" width="10" height="20"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcVc0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcVs0vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dEQMM1SEeellNGpiUS35g" type="3012" element="_1caI4M1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dE3QM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dE3Qc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dGscs1SEeellNGpiUS35g" type="3003" element="_1caI4c1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dGsc81SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dGsdM1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dEQMc1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dEQMs1SEeellNGpiUS35g" x="120" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dFeUM1SEeellNGpiUS35g" type="3012" element="_1cav8M1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dGFYM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dGFYc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dHTgM1SEeellNGpiUS35g" type="3003" element="_1cav8c1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dHTgc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dHTgs1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dFeUc1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dFeUs1SEeellNGpiUS35g" x="120" y="66" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dGFYs1SEeellNGpiUS35g" type="3012" element="_1cbXAM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dGscM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dGscc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dH6kM1SEeellNGpiUS35g" type="3003" element="_1cb-EM1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dH6kc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dH6ks1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dGFY81SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dGFZM1SEeellNGpiUS35g" x="-2" y="29" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUXcUc0vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUXcUs0vEeemde2z2XHW3g" x="416" y="28"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lUXcV80vEeemde2z2XHW3g" type="3008" element="_lUD6Ts0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUXcWs0vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUXcW80vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcXM0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcXc0vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dH6k81SEeellNGpiUS35g" type="3012" element="_1cdMMM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dIhoM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dIhoc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dJvwM1SEeellNGpiUS35g" type="3003" element="_1cdMMc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dJvwc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dJvws1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dH6lM1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dH6lc1SEeellNGpiUS35g" x="54" y="77" width="10" height="10"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dIhos1SEeellNGpiUS35g" type="3012" element="_1cdzQM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dJIsM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dJIsc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dJvw81SEeellNGpiUS35g" type="3003" element="_1ceaUM1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dJvxM1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dJvxc1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dIho81SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dIhpM1SEeellNGpiUS35g" x="-2" y="11" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUXcWM0vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUXcWc0vEeemde2z2XHW3g" x="560" y="116"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_t5Z_kM1UEeellNGpiUS35g" type="3009" element="_bkm9EM1VEeellNGpiUS35g">
+              <children xmi:type="notation:Node" xmi:id="_t5amoM1UEeellNGpiUS35g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_t5bNsM1UEeellNGpiUS35g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_blGsUM1VEeellNGpiUS35g" type="3010" element="_bkwuEM1VEeellNGpiUS35g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_blGsUc1VEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_blGsUs1VEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_t5bNsc1UEeellNGpiUS35g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_t5bNss1UEeellNGpiUS35g"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_t5Z_kc1UEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t5Z_ks1UEeellNGpiUS35g" x="423" y="145" width="124" height="50"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFd7TKEeecfM6xPduxhw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFeLTKEeecfM6xPduxhw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFc7TKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFdLTKEeecfM6xPduxhw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFdLTKEeecfM6xPduxhw" x="-31" y="25" width="724" height="314"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_KDTFebTKEeecfM6xPduxhw" type="2002" element="_KDAKgLTKEeecfM6xPduxhw">
           <children xmi:type="notation:Node" xmi:id="_KDTFfLTKEeecfM6xPduxhw" type="5006"/>
           <children xmi:type="notation:Node" xmi:id="_KDTFfbTKEeecfM6xPduxhw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_lUgmiM0vEeemde2z2XHW3g" type="3008" element="_lUNrTM0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUgmi80vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUgmjM0vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUgmjc0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUgmjs0vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dKW0M1SEeellNGpiUS35g" type="3012" element="_1cgPgM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dK94M1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dK94c1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dLk8M1SEeellNGpiUS35g" type="3003" element="_1cgPgc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dLk8c1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dLk8s1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dKW0c1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dKW0s1SEeellNGpiUS35g" x="-2" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUgmic0vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUgmis0vEeemde2z2XHW3g" x="18" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lUgmj80vEeemde2z2XHW3g" type="3008" element="_lUNrTs0vEeemde2z2XHW3g">
+              <children xmi:type="notation:Node" xmi:id="_lUqXIM0vEeemde2z2XHW3g" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lUqXIc0vEeemde2z2XHW3g" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lUqXIs0vEeemde2z2XHW3g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lUqXI80vEeemde2z2XHW3g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_1dLk881SEeellNGpiUS35g" type="3012" element="_1chdoM1SEeellNGpiUS35g">
+                <children xmi:type="notation:Node" xmi:id="_1dMMAM1SEeellNGpiUS35g" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1dMMAc1SEeellNGpiUS35g" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1dMzEM1SEeellNGpiUS35g" type="3003" element="_1chdoc1SEeellNGpiUS35g">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_1dMzEc1SEeellNGpiUS35g" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dMzEs1SEeellNGpiUS35g"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_1dLk9M1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dLk9c1SEeellNGpiUS35g" x="-2" y="97" width="10" height="10"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lUgmkM0vEeemde2z2XHW3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUgmkc0vEeemde2z2XHW3g" x="41" y="140"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFfrTKEeecfM6xPduxhw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFf7TKEeecfM6xPduxhw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFerTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFe7TKEeecfM6xPduxhw" x="210"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFe7TKEeecfM6xPduxhw" x="692" y="25" height="314"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_KDTFgLTKEeecfM6xPduxhw" type="2002" element="_KDAKgrTKEeecfM6xPduxhw">
           <children xmi:type="notation:Node" xmi:id="_KDTFg7TKEeecfM6xPduxhw" type="5006"/>
           <children xmi:type="notation:Node" xmi:id="_KDTFhLTKEeecfM6xPduxhw" type="7001">
-            <children xmi:type="notation:Node" xmi:id="_KDTFh7TKEeecfM6xPduxhw" visible="false" type="3009" element="_KDAKhLTKEeecfM6xPduxhw">
-              <children xmi:type="notation:Node" xmi:id="_KDTFirTKEeecfM6xPduxhw" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_KDTFi7TKEeecfM6xPduxhw" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_KDgg1LTKEeecfM6xPduxhw" visible="false" type="3010" element="_KDJUc7TKEeecfM6xPduxhw">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_KDgg1bTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_KDgg1rTKEeecfM6xPduxhw"/>
+            <children xmi:type="notation:Node" xmi:id="_1dNaIM1SEeellNGpiUS35g" type="3009" element="_5a_o4M1TEeellNGpiUS35g">
+              <children xmi:type="notation:Node" xmi:id="_1dNaI81SEeellNGpiUS35g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_1dOBMM1SEeellNGpiUS35g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_5b6O4M1TEeellNGpiUS35g" type="3010" element="_5boiEM1TEeellNGpiUS35g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_5b6O4c1TEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_5b6O4s1TEeellNGpiUS35g"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFjLTKEeecfM6xPduxhw"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFjbTKEeecfM6xPduxhw"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_1dOBMc1SEeellNGpiUS35g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_1dOBMs1SEeellNGpiUS35g"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFiLTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFibTKEeecfM6xPduxhw" x="30" y="30"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1dNaIc1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dNaIs1SEeellNGpiUS35g" x="13" y="19" width="106" height="72"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_KDc2cLTKEeecfM6xPduxhw" visible="false" type="3009" element="_KDAKhrTKEeecfM6xPduxhw">
-              <children xmi:type="notation:Node" xmi:id="_KDddgLTKEeecfM6xPduxhw" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_KDddgbTKEeecfM6xPduxhw" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_KDgg17TKEeecfM6xPduxhw" visible="false" type="3010" element="_KDJUdbTKEeecfM6xPduxhw">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_KDgg2LTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_KDgg2bTKEeecfM6xPduxhw"/>
+            <children xmi:type="notation:Node" xmi:id="_1dOBM81SEeellNGpiUS35g" type="3009" element="_5bPggM1TEeellNGpiUS35g">
+              <children xmi:type="notation:Node" xmi:id="_1dOBNs1SEeellNGpiUS35g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_1dOBN81SEeellNGpiUS35g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_5b618M1TEeellNGpiUS35g" type="3010" element="_5bpwMM1TEeellNGpiUS35g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_5b618c1TEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_5b618s1TEeellNGpiUS35g"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_KDddgrTKEeecfM6xPduxhw"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_KDddg7TKEeecfM6xPduxhw"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_1dOBOM1SEeellNGpiUS35g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_1dOBOc1SEeellNGpiUS35g"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_KDc2cbTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDc2crTKEeecfM6xPduxhw" x="170" y="30"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1dOBNM1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dOBNc1SEeellNGpiUS35g" x="279" y="20" height="67"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_KDeEkLTKEeecfM6xPduxhw" visible="false" type="3009" element="_KDJUcbTKEeecfM6xPduxhw">
-              <children xmi:type="notation:Node" xmi:id="_KDgg0LTKEeecfM6xPduxhw" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_KDgg0bTKEeecfM6xPduxhw" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_KDgg2rTKEeecfM6xPduxhw" visible="false" type="3010" element="_KDTFcLTKEeecfM6xPduxhw">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_KDgg27TKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_KDgg3LTKEeecfM6xPduxhw"/>
+            <children xmi:type="notation:Node" xmi:id="_1dOoQM1SEeellNGpiUS35g" type="3009" element="_5bRVsM1TEeellNGpiUS35g">
+              <children xmi:type="notation:Node" xmi:id="_1dPPUM1SEeellNGpiUS35g" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_1dPPUc1SEeellNGpiUS35g" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_5b7dAM1TEeellNGpiUS35g" type="3010" element="_5bqXQM1TEeellNGpiUS35g">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_5b7dAc1TEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_5b7dAs1TEeellNGpiUS35g"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_KDgg0rTKEeecfM6xPduxhw"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_KDgg07TKEeecfM6xPduxhw"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_1dPPUs1SEeellNGpiUS35g"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_1dPPU81SEeellNGpiUS35g"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_KDeEkbTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDeEkrTKEeecfM6xPduxhw" x="315" y="30"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1dOoQc1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dOoQs1SEeellNGpiUS35g" x="125" y="19" height="71"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_KDTFhbTKEeecfM6xPduxhw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_KDTFhrTKEeecfM6xPduxhw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_KDTFgbTKEeecfM6xPduxhw" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFgrTKEeecfM6xPduxhw" x="420"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KDTFgrTKEeecfM6xPduxhw" x="-34" y="349" width="507"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_F1irkrTKEeecfM6xPduxhw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_1dP2YM1SEeellNGpiUS35g" type="4001" element="_1cmWIM1SEeellNGpiUS35g" source="_1c0YkM1SEeellNGpiUS35g" target="_1c4qAs1SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dQdcM1SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dQdcc1SEeellNGpiUS35g" x="-3" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dQdcs1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dQdc81SEeellNGpiUS35g" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dQddM1SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dQddc1SEeellNGpiUS35g" x="-1" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dP2Yc1SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dP2Ys1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dP2Y81SEeellNGpiUS35g" points="[3, 5, -25, 4]$[23, 1, -5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dREgM1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dREgc1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1dREgs1SEeellNGpiUS35g" type="4001" element="_1cnkQM1SEeellNGpiUS35g" source="_1dBM4M1SEeellNGpiUS35g" target="_1dGFYs1SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dRrkM1SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dRrkc1SEeellNGpiUS35g" x="-2" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dRrks1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dRrk81SEeellNGpiUS35g" x="-3" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dRrlM1SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dRrlc1SEeellNGpiUS35g" x="-1" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dREg81SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dREhM1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dREhc1SEeellNGpiUS35g" points="[5, -1, -26, -2]$[26, 0, -5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dSSoM1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dSSoc1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1dSSos1SEeellNGpiUS35g" type="4001" element="_1cnkQ81SEeellNGpiUS35g" source="_1c4C8M1SEeellNGpiUS35g" target="_1dBz8M1SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dSSps1SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dSSp81SEeellNGpiUS35g" x="-1" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dSSqM1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dSSqc1SEeellNGpiUS35g"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dSSqs1SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dSSq81SEeellNGpiUS35g" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dSSo81SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dSSpM1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dSSpc1SEeellNGpiUS35g" points="[5, -1, -26, -2]$[26, 0, -5, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dS5sM1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dS5sc1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1dS5ss1SEeellNGpiUS35g" type="4001" element="_1coLUs1SEeellNGpiUS35g" source="_1dEQMM1SEeellNGpiUS35g" target="_1c7tUs1SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dS5ts1SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dS5t81SEeellNGpiUS35g" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dTgwM1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dTgwc1SEeellNGpiUS35g" x="-3" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dTgws1SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dTgw81SEeellNGpiUS35g" x="-5" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dS5s81SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dS5tM1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dS5tc1SEeellNGpiUS35g" points="[5, 1, -21, -6]$[21, 5, -5, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dTgxM1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dTgxc1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1dTgxs1SEeellNGpiUS35g" type="4001" element="_1coyYs1SEeellNGpiUS35g" source="_1dFeUM1SEeellNGpiUS35g" target="_1dIhos1SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dUH0M1SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dUH0c1SEeellNGpiUS35g" x="-24" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dUH0s1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dUH081SEeellNGpiUS35g" x="-1" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dUH1M1SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dUH1c1SEeellNGpiUS35g" x="3" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dTgx81SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dTgyM1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dTgyc1SEeellNGpiUS35g" points="[4, 5, -18, -28]$[18, 28, -4, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dUH1s1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dUH181SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1dUH2M1SEeellNGpiUS35g" type="4001" element="_1cpZcM1SEeellNGpiUS35g" source="_1dH6k81SEeellNGpiUS35g" target="_1c_XsM1SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dUu481SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dUu5M1SEeellNGpiUS35g" x="-3" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dUu5c1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dUu5s1SEeellNGpiUS35g" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dUu581SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dUu6M1SEeellNGpiUS35g" x="-4" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dUu4M1SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dUu4c1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dUu4s1SEeellNGpiUS35g" points="[-5, 5, 15, -13]$[-15, 13, 5, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dVV8M1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dVV8c1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1dVV8s1SEeellNGpiUS35g" type="4001" element="_1cpZc81SEeellNGpiUS35g" source="_1c-Jk81SEeellNGpiUS35g" target="_1dLk881SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dVV9s1SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dVV981SEeellNGpiUS35g" x="-5" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dV9AM1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dV9Ac1SEeellNGpiUS35g" x="4" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dV9As1SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dV9A81SEeellNGpiUS35g" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dVV881SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dVV9M1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dVV9c1SEeellNGpiUS35g" points="[5, -1, -74, 7]$[74, -8, -5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dV9BM1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dV9Bc1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1dWkEM1SEeellNGpiUS35g" type="4001" element="_1cqAgs1SEeellNGpiUS35g" source="_1c7GQM1SEeellNGpiUS35g" target="_1dKW0M1SEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_1dXLIM1SEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dXLIc1SEeellNGpiUS35g" x="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dXyMM1SEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dXyMc1SEeellNGpiUS35g" x="5" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1dYZQM1SEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1dYZQc1SEeellNGpiUS35g" x="2" y="-7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1dWkEc1SEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1dWkEs1SEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1dWkE81SEeellNGpiUS35g" points="[5, -3, -47, 25]$[47, -26, -5, 2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dZAUM1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dZAUc1SEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_KREjQM1WEeellNGpiUS35g" type="4001" element="_KQ8AYM1WEeellNGpiUS35g" source="_lUXcUM0vEeemde2z2XHW3g" target="_t5Z_kM1UEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_KRFKUM1WEeellNGpiUS35g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRFKUc1WEeellNGpiUS35g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KRFKUs1WEeellNGpiUS35g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRFKU81WEeellNGpiUS35g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KRFKVM1WEeellNGpiUS35g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRFKVc1WEeellNGpiUS35g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KREjQc1WEeellNGpiUS35g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KREjQs1WEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KREjQ81WEeellNGpiUS35g" points="[385, 53, 385, 53]$[392, 170, 392, 170]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KRFxYM1WEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KRFxYc1WEeellNGpiUS35g" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KC2ZgbTKEeecfM6xPduxhw" name="ProductionArea">
       <target xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.0"/>
       <semanticElements xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KC2ZgrTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6MM0vEeemde2z2XHW3g" name="RawShelfProducer">
+        <target xmi:type="at.ac.tuwien.big.stl:ItemGenerator" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.0"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemGenerator" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cSNEM1SEeellNGpiUS35g" outgoingEdges="_1cmWIM1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.0/@outputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.0/@outputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cSNEc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']/@borderedNodeMappings[name='ItemGeneratorOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']/@borderedNodeMappings[name='ItemGeneratorOutputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUD6Mc0vEeemde2z2XHW3g" workspacePath="/at.ac.tuwien.big.stl.design/images/3dprinter.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6NM0vEeemde2z2XHW3g" name="ToBufferConveyor">
+        <target xmi:type="at.ac.tuwien.big.stl:Conveyor" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.1"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:Conveyor" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cUCQM1SEeellNGpiUS35g" outgoingEdges="_1cnkQ81SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.1/@outputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.1/@outputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cUCQc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cUpUM1SEeellNGpiUS35g" incomingEdges="_1cmWIM1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.1/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.1/@inputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cUpUc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUD6Nc0vEeemde2z2XHW3g" workspacePath="/at.ac.tuwien.big.stl.design/images/band.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6Ns0vEeemde2z2XHW3g" name="ToShelfStoreConveyor">
+        <target xmi:type="at.ac.tuwien.big.stl:Conveyor" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.4"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:Conveyor" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.4"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cVQYM1SEeellNGpiUS35g" outgoingEdges="_1cqAgs1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.4/@outputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.4/@outputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cVQYc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cV3cM1SEeellNGpiUS35g" incomingEdges="_1coLUs1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.4/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.4/@inputSlots.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cV3cc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUD6N80vEeemde2z2XHW3g" workspacePath="/at.ac.tuwien.big.stl.design/images/band.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6OM0vEeemde2z2XHW3g" name="ToWasteStoreConveyor">
+        <target xmi:type="at.ac.tuwien.big.stl:Conveyor" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.5"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:Conveyor" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.5"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cWegM1SEeellNGpiUS35g" outgoingEdges="_1cpZc81SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.5/@outputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.5/@outputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cWegc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cXsoM1SEeellNGpiUS35g" incomingEdges="_1cpZcM1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.5/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.5/@inputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cXsoc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUD6Oc0vEeemde2z2XHW3g" workspacePath="/at.ac.tuwien.big.stl.design/images/band.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6Rs0vEeemde2z2XHW3g" name="Buffer">
+        <target xmi:type="at.ac.tuwien.big.stl:Buffer" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.2"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:Buffer" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.2"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cY6wM1SEeellNGpiUS35g" outgoingEdges="_1cnkQM1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.2/@outputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.2/@outputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cY6wc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferOutputSlot']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cY6ws1SEeellNGpiUS35g" incomingEdges="_1cnkQ81SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.2/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.2/@inputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cZh0M1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUD6R80vEeemde2z2XHW3g" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/stack.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6TM0vEeemde2z2XHW3g" name="SawingMachine" outgoingEdges="_KQ8AYM1WEeellNGpiUS35g">
+        <target xmi:type="at.ac.tuwien.big.stl:Machine" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:Machine" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1caI4M1SEeellNGpiUS35g" outgoingEdges="_1coLUs1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@outputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@outputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1caI4c1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineOutputSlot']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cav8M1SEeellNGpiUS35g" outgoingEdges="_1coyYs1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@outputSlots.1"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@outputSlots.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cav8c1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineOutputSlot']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cbXAM1SEeellNGpiUS35g" incomingEdges="_1cnkQM1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@inputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cb-EM1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUD6Tc0vEeemde2z2XHW3g" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/assemblymachine.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EH9scM1VEeellNGpiUS35g" visible="false">
+          <target xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@subNodeMappings[name='Service']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6Ts0vEeemde2z2XHW3g" name="TurnTable">
+        <target xmi:type="at.ac.tuwien.big.stl:TurnTable" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.6"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:TurnTable" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.6"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cdMMM1SEeellNGpiUS35g" outgoingEdges="_1cpZcM1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.6/@outputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.6/@outputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cdMMc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="246,139,139">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableOutputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableOutputSlot']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cdzQM1SEeellNGpiUS35g" incomingEdges="_1coyYs1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.6/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.6/@inputSlots.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1ceaUM1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUD6T80vEeemde2z2XHW3g" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/chooser.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_bkm9EM1VEeellNGpiUS35g" name="Services" incomingEdges="_KQ8AYM1WEeellNGpiUS35g">
+        <target xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_bkm9Ec1VEeellNGpiUS35g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Service']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Service']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_bkwuEM1VEeellNGpiUS35g" name="saw(x,y,z)">
+          <target xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_bkxVIM1VEeellNGpiUS35g" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Service']/@subNodeMappings[name='ServiceMethod']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Service']/@subNodeMappings[name='ServiceMethod']"/>
+        </ownedElements>
+      </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KDAKgLTKEeecfM6xPduxhw" name="StoreArea">
       <target xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.1"/>
       <semanticElements xmi:type="at.ac.tuwien.big.stl:Area" href="Example2-ShelfSawingProductionLine.stl#//@areas.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDAKgbTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUNrTM0vEeemde2z2XHW3g" name="ShelfStore">
+        <target xmi:type="at.ac.tuwien.big.stl:ProductStore" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.0"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:ProductStore" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1cgPgM1SEeellNGpiUS35g" incomingEdges="_1cqAgs1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.0/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.0/@inputSlots.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1cgPgc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']/@borderedNodeMappings[name='ProductStoreInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']/@borderedNodeMappings[name='ProductStoreInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUNrTc0vEeemde2z2XHW3g" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/lager.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUNrTs0vEeemde2z2XHW3g" name="WoodWasteStore">
+        <target xmi:type="at.ac.tuwien.big.stl:WasteStore" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.1"/>
+        <semanticElements xmi:type="at.ac.tuwien.big.stl:WasteStore" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1chdoM1SEeellNGpiUS35g" incomingEdges="_1cpZc81SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
+          <target xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.1/@inputSlots.0"/>
+          <semanticElements xmi:type="at.ac.tuwien.big.stl:Slot" href="Example2-ShelfSawingProductionLine.stl#//@areas.1/@components.1/@inputSlots.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_1chdoc1SEeellNGpiUS35g" showIcon="false" labelPosition="node" color="204,242,166">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']/@borderedNodeMappings[name='WasteStoreInputSlot']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']/@borderedNodeMappings[name='WasteStoreInputSlot']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lUNrT80vEeemde2z2XHW3g" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/muell.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']"/>
+      </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KDAKgrTKEeecfM6xPduxhw" name="Item Types">
       <target xmi:type="at.ac.tuwien.big.stl:System" href="Example2-ShelfSawingProductionLine.stl#/"/>
       <semanticElements xmi:type="at.ac.tuwien.big.stl:System" href="Example2-ShelfSawingProductionLine.stl#/"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDAKg7TKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_KDAKhLTKEeecfM6xPduxhw" name="RawShelf" visible="false">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_5a_o4M1TEeellNGpiUS35g" name="RawShelf">
         <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
         <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDAKhbTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@style"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5bNrUM1TEeellNGpiUS35g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KDJUc7TKEeecfM6xPduxhw" name="Raw piece of wood" visible="false">
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_5boiEM1TEeellNGpiUS35g" name="Raw piece of wood">
           <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
           <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.0"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_KDJUdLTKEeecfM6xPduxhw" showIcon="false" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']/@style"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_5bpJIM1TEeellNGpiUS35g" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@subNodeMappings[name='ItemDescritption']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@subNodeMappings[name='ItemDescritption']"/>
         </ownedElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_KDAKhrTKEeecfM6xPduxhw" name="Shelf" visible="false">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_5bPggM1TEeellNGpiUS35g" name="Shelf">
         <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
         <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDJUcLTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@style"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5bQHkM1TEeellNGpiUS35g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KDJUdbTKEeecfM6xPduxhw" name="Finished shelf" visible="false">
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_5bpwMM1TEeellNGpiUS35g" name="Finished shelf">
           <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
           <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.1"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_KDJUdrTKEeecfM6xPduxhw" showIcon="false" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']/@style"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_5bpwMc1TEeellNGpiUS35g" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@subNodeMappings[name='ItemDescritption']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@subNodeMappings[name='ItemDescritption']"/>
         </ownedElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_KDJUcbTKEeecfM6xPduxhw" name="WoodWaste" visible="false">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_5bRVsM1TEeellNGpiUS35g" name="WoodWaste">
         <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
         <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KDJUcrTKEeecfM6xPduxhw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@style"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5bR8wM1TEeellNGpiUS35g" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KDTFcLTKEeecfM6xPduxhw" name="Wood that goes to waste" visible="false">
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_5bqXQM1TEeellNGpiUS35g" name="Wood that goes to waste">
           <target xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
           <semanticElements xmi:type="at.ac.tuwien.big.stl:ItemType" href="Example2-ShelfSawingProductionLine.stl#//@itemTypes.2"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_KDTFcbTKEeecfM6xPduxhw" showIcon="false" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']/@style"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_5bqXQc1TEeellNGpiUS35g" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@subNodeMappings[name='ItemDescritption']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='ItemType']/@subNodeMappings[name='ItemTypeDescription']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']/@subContainerMappings[name='Items']/@subNodeMappings[name='ItemDescritption']"/>
         </ownedElements>
       </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1cmWIM1SEeellNGpiUS35g" sourceNode="_1cSNEM1SEeellNGpiUS35g" targetNode="_1cUpUM1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.0"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1cm9MM1SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1cm9Mc1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1cnkQM1SEeellNGpiUS35g" sourceNode="_1cY6wM1SEeellNGpiUS35g" targetNode="_1cbXAM1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.1"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1cnkQc1SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1cnkQs1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1cnkQ81SEeellNGpiUS35g" sourceNode="_1cUCQM1SEeellNGpiUS35g" targetNode="_1cY6ws1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.2"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1coLUM1SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1coLUc1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1coLUs1SEeellNGpiUS35g" sourceNode="_1caI4M1SEeellNGpiUS35g" targetNode="_1cV3cM1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.3"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1coyYM1SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1coyYc1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1coyYs1SEeellNGpiUS35g" sourceNode="_1cav8M1SEeellNGpiUS35g" targetNode="_1cdzQM1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.4"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1coyY81SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1coyZM1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1cpZcM1SEeellNGpiUS35g" sourceNode="_1cdMMM1SEeellNGpiUS35g" targetNode="_1cXsoM1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.5"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1cpZcc1SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1cpZcs1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1cpZc81SEeellNGpiUS35g" sourceNode="_1cWegM1SEeellNGpiUS35g" targetNode="_1chdoM1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.6"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1cqAgM1SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1cqAgc1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_1cqAgs1SEeellNGpiUS35g" sourceNode="_1cVQYM1SEeellNGpiUS35g" targetNode="_1cgPgM1SEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.7"/>
+      <semanticElements xmi:type="at.ac.tuwien.big.stl:Connector" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@connectors.7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_1cqnkM1SEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_1cqnkc1SEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_KQ8AYM1WEeellNGpiUS35g" sourceNode="_lUD6TM0vEeemde2z2XHW3g" targetNode="_bkm9EM1VEeellNGpiUS35g">
+      <target xmi:type="at.ac.tuwien.big.stl:Machine" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_KQ8ncM1WEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='ServiceMachineConnector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_KQ8ncc1WEeellNGpiUS35g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='ServiceMachineConnector']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_F1gPVLTKEeecfM6xPduxhw"/>

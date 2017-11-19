@@ -4,7 +4,157 @@
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="stl" initialisation="true" domainClass="stl::System" enablePopupBars="true">
       <metamodel href="../../at.ac.tuwien.big.stl/model/stl.ecore#/"/>
       <defaultLayer name="Default">
+        <edgeMappings name="Connector" semanticCandidatesExpression="feature:eAllContents" sourceMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']/@borderedNodeMappings[name='ItemGeneratorOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableOutputSlot']" targetMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']/@borderedNodeMappings[name='ProductStoreInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']/@borderedNodeMappings[name='WasteStoreInputSlot']" targetFinderExpression="feature:exit" sourceFinderExpression="feature:entry" domainClass="stl::Connector" useDomainElement="true">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ServiceMachineConnector" sourceMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']" targetMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Service']" targetFinderExpression="feature:services">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
         <containerMappings name="Area" semanticCandidatesExpression="feature:areas" domainClass="stl::Area">
+          <subContainerMappings name="ItemGenerator" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::ItemGenerator">
+            <borderedNodeMappings name="ItemGeneratorOutputSlot" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" workspacePath="/at.ac.tuwien.big.stl.design/images/3dprinter.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Conveyor" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::Conveyor">
+            <borderedNodeMappings name="ConveyorOutputSlot" semanticCandidatesExpression="feature:outputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="ConveyorInputSlot" semanticCandidatesExpression="feature:inputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" workspacePath="/at.ac.tuwien.big.stl.design/images/band.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Buffer" label="Buffer" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::Buffer">
+            <borderedNodeMappings name="BufferOutputSlot" semanticCandidatesExpression="feature:outputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="BufferInputSlot" semanticCandidatesExpression="feature:inputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/stack.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Machine" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::Machine">
+            <borderedNodeMappings name="MachineOutputSlot" semanticCandidatesExpression="feature:outputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="MachineInputSlot" semanticCandidatesExpression="feature:inputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/assemblymachine.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="TurnTable" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::TurnTable">
+            <borderedNodeMappings name="TurnTableOutputSlot" semanticCandidatesExpression="feature:outputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="TurnTableInputSlot" semanticCandidatesExpression="feature:inputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/chooser.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="ProductStore" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::ProductStore">
+            <borderedNodeMappings name="ProductStoreInputSlot" semanticCandidatesExpression="feature:inputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/lager.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="WasteStore" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::WasteStore">
+            <borderedNodeMappings name="WasteStoreInputSlot" semanticCandidatesExpression="feature:inputSlots" domainClass="stl::Slot">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/at.ac.tuwien.big.stl.design/images/muell.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Service" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::Service" childrenPresentation="List">
+            <subNodeMappings name="ServiceMethod" semanticCandidatesExpression="[self/]" domainClass="stl::Service">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="saw(x,y,z)" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false" labelExpression="Services">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
           <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -13,6 +163,21 @@
           </style>
         </containerMappings>
         <containerMappings name="ItemTypes" semanticCandidatesExpression="[self/]" domainClass="stl::System">
+          <subContainerMappings name="Items" semanticCandidatesExpression="feature:eAllContents" domainClass="stl::ItemType" childrenPresentation="List">
+            <subNodeMappings name="ItemDescritption" semanticCandidatesExpression="[self/]" domainClass="stl::ItemType">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
           <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false" labelExpression="Item Types">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -31,6 +196,69 @@
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ItemType" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']" iconPath="/at.ac.tuwien.big.stl.design/icons/ItemType.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Component">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="TurnTable" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']" iconPath="/at.ac.tuwien.big.stl.design/icons/Turntable.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Conveyor" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']" iconPath="/at.ac.tuwien.big.stl.design/icons/Conveyor.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Machine" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']" iconPath="/at.ac.tuwien.big.stl.design/icons/Machine.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ItemGenerator" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']" iconPath="/at.ac.tuwien.big.stl.design/icons/ItemGenerator.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Buffer" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']" iconPath="/at.ac.tuwien.big.stl.design/icons/Buffer.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ProductStore" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']" iconPath="/at.ac.tuwien.big.stl.design/icons/ProductStore.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="WasteStore" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']" iconPath="/at.ac.tuwien.big.stl.design/icons/WasteStore.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Slot">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="InputSlot" nodeMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']/@borderedNodeMappings[name='ProductStoreInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']/@borderedNodeMappings[name='WasteStoreInputSlot']" iconPath="/at.ac.tuwien.big.stl.design/icons/InputSlot.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="OutputSlot" nodeMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']/@borderedNodeMappings[name='ItemGeneratorOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableOutputSlot']" iconPath="/at.ac.tuwien.big.stl.design/icons/OutputSlot.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Connector">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Connector" edgeMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']" iconPath="/at.ac.tuwien.big.stl.design/icons/Connector.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation/>
           </ownedTools>
         </toolSections>
       </defaultLayer>
