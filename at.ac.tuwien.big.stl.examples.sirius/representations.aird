@@ -171,13 +171,6 @@
             <children xmi:type="notation:Node" xmi:id="_lUXcUM0vEeemde2z2XHW3g" type="3008" element="_lUD6TM0vEeemde2z2XHW3g">
               <children xmi:type="notation:Node" xmi:id="_lUXcU80vEeemde2z2XHW3g" type="5005"/>
               <children xmi:type="notation:Node" xmi:id="_lUXcVM0vEeemde2z2XHW3g" type="7002">
-                <children xmi:type="notation:Node" xmi:id="_EINkEM1VEeellNGpiUS35g" visible="false" type="3007" element="_EH9scM1VEeellNGpiUS35g">
-                  <children xmi:type="notation:Node" xmi:id="_EINkE81VEeellNGpiUS35g" type="5003">
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_EINkFM1VEeellNGpiUS35g" y="5"/>
-                  </children>
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_EINkEc1VEeellNGpiUS35g" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EINkEs1VEeellNGpiUS35g" x="30" y="30" width="10" height="20"/>
-                </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_lUXcVc0vEeemde2z2XHW3g"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_lUXcVs0vEeemde2z2XHW3g"/>
               </children>
@@ -493,21 +486,21 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dZAUM1SEeellNGpiUS35g" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1dZAUc1SEeellNGpiUS35g" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_KREjQM1WEeellNGpiUS35g" type="4001" element="_KQ8AYM1WEeellNGpiUS35g" source="_lUXcUM0vEeemde2z2XHW3g" target="_t5Z_kM1UEeellNGpiUS35g">
-          <children xmi:type="notation:Node" xmi:id="_KRFKUM1WEeellNGpiUS35g" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRFKUc1WEeellNGpiUS35g" y="-10"/>
+        <edges xmi:type="notation:Edge" xmi:id="_TiOdE87sEeeLoYHJ9HRI0w" type="4001" element="_TiOdEM7sEeeLoYHJ9HRI0w" source="_lUXcUM0vEeemde2z2XHW3g" target="_t5Z_kM1UEeellNGpiUS35g">
+          <children xmi:type="notation:Node" xmi:id="_TiOdF87sEeeLoYHJ9HRI0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TiOdGM7sEeeLoYHJ9HRI0w" y="-10"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_KRFKUs1WEeellNGpiUS35g" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRFKU81WEeellNGpiUS35g" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_TiOdGc7sEeeLoYHJ9HRI0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TiOdGs7sEeeLoYHJ9HRI0w" y="10"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_KRFKVM1WEeellNGpiUS35g" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KRFKVc1WEeellNGpiUS35g" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_TiOdG87sEeeLoYHJ9HRI0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TiOdHM7sEeeLoYHJ9HRI0w" y="10"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KREjQc1WEeellNGpiUS35g"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_KREjQs1WEeellNGpiUS35g" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KREjQ81WEeellNGpiUS35g" points="[385, 53, 385, 53]$[392, 170, 392, 170]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KRFxYM1WEeellNGpiUS35g" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KRFxYc1WEeellNGpiUS35g" id="(0.5,0.5)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TiOdFM7sEeeLoYHJ9HRI0w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TiOdFc7sEeeLoYHJ9HRI0w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TiOdFs7sEeeLoYHJ9HRI0w" points="[385, 53, 385, 53]$[392, 170, 392, 170]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TiOdHc7sEeeLoYHJ9HRI0w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TiOdHs7sEeeLoYHJ9HRI0w" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -672,7 +665,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6TM0vEeemde2z2XHW3g" name="SawingMachine" outgoingEdges="_KQ8AYM1WEeellNGpiUS35g">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6TM0vEeemde2z2XHW3g" name="SawingMachine" outgoingEdges="_TiOdEM7sEeeLoYHJ9HRI0w">
         <target xmi:type="at.ac.tuwien.big.stl:Machine" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3"/>
         <semanticElements xmi:type="at.ac.tuwien.big.stl:Machine" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_1caI4M1SEeellNGpiUS35g" outgoingEdges="_1coLUs1SEeellNGpiUS35g" width="1" height="1" resizeKind="NSEW">
@@ -715,11 +708,6 @@
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']"/>
-        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_EH9scM1VEeellNGpiUS35g" visible="false">
-          <target xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
-          <semanticElements xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@subNodeMappings[name='Service']"/>
-        </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lUD6Ts0vEeemde2z2XHW3g" name="TurnTable">
         <target xmi:type="at.ac.tuwien.big.stl:TurnTable" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.6"/>
@@ -751,7 +739,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_bkm9EM1VEeellNGpiUS35g" name="Services" incomingEdges="_KQ8AYM1WEeellNGpiUS35g">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_bkm9EM1VEeellNGpiUS35g" name="Services" incomingEdges="_TiOdEM7sEeeLoYHJ9HRI0w">
         <target xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
         <semanticElements xmi:type="at.ac.tuwien.big.stl:Service" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3/@services.0"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -954,13 +942,13 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='Connector']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_KQ8AYM1WEeellNGpiUS35g" sourceNode="_lUD6TM0vEeemde2z2XHW3g" targetNode="_bkm9EM1VEeellNGpiUS35g">
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TiOdEM7sEeeLoYHJ9HRI0w" sourceNode="_lUD6TM0vEeemde2z2XHW3g" targetNode="_bkm9EM1VEeellNGpiUS35g">
       <target xmi:type="at.ac.tuwien.big.stl:Machine" href="Example2-ShelfSawingProductionLine.stl#//@areas.0/@components.3"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_KQ8ncM1WEeellNGpiUS35g" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='ServiceMachineConnector']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_KQ8ncc1WEeellNGpiUS35g"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TiOdEc7sEeeLoYHJ9HRI0w" targetArrow="NoDecoration" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='ServiceComponentConnector']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TiOdEs7sEeeLoYHJ9HRI0w"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='ServiceMachineConnector']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@edgeMappings[name='ServiceComponentConnector']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/at.ac.tuwien.big.stl.design/description/stl.odesign#//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_F1gPVLTKEeecfM6xPduxhw"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="stl" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="stl" version="12.0.0.2017041100">
   <ownedViewpoints name="STLViewpoint">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="stl" initialisation="true" domainClass="stl::System" enablePopupBars="true">
       <metamodel href="../../at.ac.tuwien.big.stl/model/stl.ecore#/"/>
@@ -12,7 +12,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="ServiceMachineConnector" sourceMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']" targetMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Service']" targetFinderExpression="feature:services">
+        <edgeMappings name="ServiceComponentConnector" sourceMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']" targetMapping="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Service']" targetFinderExpression="feature:services">
           <style targetArrow="NoDecoration" sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <centerLabelStyleDescription>
@@ -192,7 +192,24 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::Area" referenceName="areas">
-                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['Area'/]"/>
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="New Dialog">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.0/@ownedTools[name='Area']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="Name" labelExpression="Name:" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
                 </subModelOperations>
               </firstModelOperations>
             </initialOperation>
@@ -200,56 +217,255 @@
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="ItemType" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='ItemTypes']" iconPath="/at.ac.tuwien.big.stl.design/icons/ItemType.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::ItemType" referenceName="itemTypes">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="New Dialog">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.0/@ownedTools[name='ItemType']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="Name" labelExpression="Name:" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                      <controls xsi:type="properties:TextDescription" name="Description" labelExpression="Description" valueExpression="aql:instance.description">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="description" valueExpression="var:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
         </toolSections>
         <toolSections name="Component">
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="TurnTable" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']" iconPath="/at.ac.tuwien.big.stl.design/icons/Turntable.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::TurnTable" referenceName="components">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="TurnTable Name">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.1/@ownedTools[name='TurnTable']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="input" labelExpression="Name:" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="Conveyor" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']" iconPath="/at.ac.tuwien.big.stl.design/icons/Conveyor.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::Conveyor" referenceName="components">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Conveyor Name">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.1/@ownedTools[name='Conveyor']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="input" labelExpression="Name:" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="Machine" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']" iconPath="/at.ac.tuwien.big.stl.design/icons/Machine.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::Machine" referenceName="components">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Machine Name">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.1/@ownedTools[name='Machine']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="input" labelExpression="Name" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="ItemGenerator" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']" iconPath="/at.ac.tuwien.big.stl.design/icons/ItemGenerator.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::ItemGenerator" referenceName="components">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="ItemGenerator">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.1/@ownedTools[name='ItemGenerator']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="input" labelExpression="Name" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="Buffer" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']" iconPath="/at.ac.tuwien.big.stl.design/icons/Buffer.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::Buffer" referenceName="components">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Buffer Name">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.1/@ownedTools[name='Buffer']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="input" labelExpression="Name" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="ProductStore" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']" iconPath="/at.ac.tuwien.big.stl.design/icons/ProductStore.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::ProductStore" referenceName="components">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="ProductStore Name">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.1/@ownedTools[name='ProductStore']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="input" labelExpression="Name" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:ContainerCreationDescription" name="WasteStore" containerMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']" iconPath="/at.ac.tuwien.big.stl.design/icons/WasteStore.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::WasteStore" referenceName="components">
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="WasteStore Name">
+                    <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                      <initialOperation/>
+                    </buttons>
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="Default Page" labelExpression="Page" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@toolSections.1/@ownedTools[name='WasteStore']/@initialOperation/@firstModelOperations/@subModelOperations.0/@subModelOperations.0/@groups.0"/>
+                    <groups name="Default Group" labelExpression="Group" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:TextDescription" name="input" labelExpression="Name" valueExpression="aql:instance.name">
+                        <initialOperation>
+                          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:newValue"/>
+                          </firstModelOperations>
+                        </initialOperation>
+                      </controls>
+                    </groups>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
         </toolSections>
         <toolSections name="Slot">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="InputSlot" nodeMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ProductStore']/@borderedNodeMappings[name='ProductStoreInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableInputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='WasteStore']/@borderedNodeMappings[name='WasteStoreInputSlot']" iconPath="/at.ac.tuwien.big.stl.design/icons/InputSlot.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::Slot" referenceName="inputSlots"/>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:NodeCreationDescription" name="OutputSlot" nodeMappings="//@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Buffer']/@borderedNodeMappings[name='BufferOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Conveyor']/@borderedNodeMappings[name='ConveyorOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='ItemGenerator']/@borderedNodeMappings[name='ItemGeneratorOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='Machine']/@borderedNodeMappings[name='MachineOutputSlot'] //@ownedViewpoints[name='STLViewpoint']/@ownedRepresentations[name='stl']/@defaultLayer/@containerMappings[name='Area']/@subContainerMappings[name='TurnTable']/@borderedNodeMappings[name='TurnTableOutputSlot']" iconPath="/at.ac.tuwien.big.stl.design/icons/OutputSlot.gif">
             <variable name="container"/>
             <viewVariable name="containerView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stl::Slot" referenceName="outputSlots"/>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
         </toolSections>
         <toolSections name="Connector">
@@ -258,7 +474,11 @@
             <targetVariable name="target"/>
             <sourceViewVariable name="sourceView"/>
             <targetViewVariable name="targetView"/>
-            <initialOperation/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
           </ownedTools>
         </toolSections>
       </defaultLayer>
